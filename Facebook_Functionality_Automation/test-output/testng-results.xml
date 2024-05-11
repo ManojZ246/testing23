@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="5" failed="5" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-26T15:01:41 IST" name="RegressionSuite" finished-at="2024-04-26T15:06:02 IST" duration-ms="260809">
+    <groups>
+    </groups>
+    <test started-at="2024-04-26T15:01:41 IST" name=" ChromeTest" finished-at="2024-04-26T15:03:00 IST" duration-ms="79006">
+      <class name="TestNGFacebook.ForgetPassword">
+        <test-method is-config="true" signature="launchtheBrowser(java.lang.String)[pri:0, instance:TestNGFacebook.ForgetPassword@443118b0]" started-at="2024-04-26T15:01:41 IST" name="launchtheBrowser" finished-at="2024-04-26T15:01:55 IST" duration-ms="13817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchtheBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGFacebook.ForgetPassword@443118b0]" started-at="2024-04-26T15:01:55 IST" name="beforeClass" finished-at="2024-04-26T15:01:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@443118b0]" started-at="2024-04-26T15:01:55 IST" name="beforeMethod" finished-at="2024-04-26T15:02:44 IST" duration-ms="48830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyIDwithinvalidemail()[pri:0, instance:TestNGFacebook.ForgetPassword@443118b0]" started-at="2024-04-26T15:02:44 IST" name="verifyIDwithinvalidemail" finished-at="2024-04-26T15:02:45 IST" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIDwithinvalidemail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@443118b0]" started-at="2024-04-26T15:02:45 IST" name="afterMethod" finished-at="2024-04-26T15:02:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@443118b0]" started-at="2024-04-26T15:02:45 IST" name="beforeMethod" finished-at="2024-04-26T15:02:50 IST" duration-ms="4244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyIDwithvalidemail()[pri:0, instance:TestNGFacebook.ForgetPassword@443118b0]" started-at="2024-04-26T15:02:50 IST" name="verifyIDwithvalidemail" finished-at="2024-04-26T15:02:50 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIDwithvalidemail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@443118b0]" started-at="2024-04-26T15:02:50 IST" name="afterMethod" finished-at="2024-04-26T15:02:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNGFacebook.ForgetPassword@443118b0]" started-at="2024-04-26T15:02:50 IST" name="afterClass" finished-at="2024-04-26T15:02:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBriowser()[pri:0, instance:TestNGFacebook.ForgetPassword@443118b0]" started-at="2024-04-26T15:02:55 IST" name="closeBriowser" finished-at="2024-04-26T15:03:00 IST" duration-ms="5475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBriowser -->
+      </class> <!-- TestNGFacebook.ForgetPassword -->
+      <class name="Test_Facebook_Functionality.Testng">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Test_Facebook_Functionality.Testng@1bb5a082]" started-at="2024-04-26T15:01:55 IST" name="beforeClass" finished-at="2024-04-26T15:01:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test_Facebook_Functionality.Testng@1bb5a082]" started-at="2024-04-26T15:01:55 IST" name="beforeMethod" finished-at="2024-04-26T15:01:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:Test_Facebook_Functionality.Testng@1bb5a082]" started-at="2024-04-26T15:01:55 IST" name="test1" finished-at="2024-04-26T15:01:55 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Test_Facebook_Functionality.Testng@1bb5a082]" started-at="2024-04-26T15:01:55 IST" name="afterMethod" finished-at="2024-04-26T15:01:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Test_Facebook_Functionality.Testng@1bb5a082]" started-at="2024-04-26T15:01:55 IST" name="afterClass" finished-at="2024-04-26T15:01:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Test_Facebook_Functionality.Testng -->
+      <class name="TestNGFacebook.SignPasge">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGFacebook.SignPasge@765d7657]" started-at="2024-04-26T15:01:55 IST" name="beforeClass" finished-at="2024-04-26T15:02:11 IST" duration-ms="15776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGFacebook.SignPasge@765d7657]" started-at="2024-04-26T15:02:11 IST" name="beforeMethod" finished-at="2024-04-26T15:02:44 IST" duration-ms="32609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifythatEnterInvalidCreditional()[pri:-1, instance:TestNGFacebook.SignPasge@765d7657]" started-at="2024-04-26T15:02:44 IST" name="verifythatEnterInvalidCreditional" finished-at="2024-04-26T15:02:50 IST" duration-ms="6604" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=124.0.6367.78)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a90fcf8984ddd5600dfd6b78471b500e, findElement {value=, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Manoj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62789}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62789/devtoo..., se:cdpVersion: 124.0.6367.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a90fcf8984ddd5600dfd6b78471b500e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=124.0.6367.78)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a90fcf8984ddd5600dfd6b78471b500e, findElement {value=, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Manoj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62789}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62789/devtoo..., se:cdpVersion: 124.0.6367.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a90fcf8984ddd5600dfd6b78471b500e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at pom.module.SignUpPage.clicksignUpButton(SignUpPage.java:103)
+at TestNGFacebook.SignPasge.verifythatEnterInvalidCreditional(SignPasge.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifythatEnterInvalidCreditional -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGFacebook.SignPasge@765d7657]" started-at="2024-04-26T15:02:50 IST" name="beforeMethod" finished-at="2024-04-26T15:02:54 IST" duration-ms="3281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGFacebook.SignPasge@765d7657]" started-at="2024-04-26T15:02:50 IST" name="afterMethod" finished-at="2024-04-26T15:02:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifythatEntervalidCreditional()[pri:0, instance:TestNGFacebook.SignPasge@765d7657]" started-at="2024-04-26T15:02:54 IST" name="verifythatEntervalidCreditional" finished-at="2024-04-26T15:02:55 IST" duration-ms="1113" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=124.0.6367.78)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a90fcf8984ddd5600dfd6b78471b500e, findElement {value=, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Manoj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62789}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62789/devtoo..., se:cdpVersion: 124.0.6367.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a90fcf8984ddd5600dfd6b78471b500e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=124.0.6367.78)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a90fcf8984ddd5600dfd6b78471b500e, findElement {value=, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Manoj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62789}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62789/devtoo..., se:cdpVersion: 124.0.6367.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a90fcf8984ddd5600dfd6b78471b500e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at pom.module.SignUpPage.clicksignUpButton(SignUpPage.java:103)
+at TestNGFacebook.SignPasge.verifythatEntervalidCreditional(SignPasge.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifythatEntervalidCreditional -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGFacebook.SignPasge@765d7657]" started-at="2024-04-26T15:02:55 IST" name="afterMethod" finished-at="2024-04-26T15:02:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNGFacebook.SignPasge@765d7657]" started-at="2024-04-26T15:02:55 IST" name="afterClass" finished-at="2024-04-26T15:02:55 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNGFacebook.SignPasge -->
+    </test> <!--  ChromeTest -->
+    <test started-at="2024-04-26T15:03:01 IST" name=" FirefoxTest" finished-at="2024-04-26T15:05:44 IST" duration-ms="162717">
+      <class name="TestNGFacebook.ForgetPassword">
+        <test-method is-config="true" signature="launchtheBrowser(java.lang.String)[pri:0, instance:TestNGFacebook.ForgetPassword@229f66ed]" started-at="2024-04-26T15:03:01 IST" name="launchtheBrowser" finished-at="2024-04-26T15:03:36 IST" duration-ms="34446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchtheBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@229f66ed]" started-at="2024-04-26T15:03:36 IST" name="beforeMethod" finished-at="2024-04-26T15:04:48 IST" duration-ms="72242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGFacebook.ForgetPassword@229f66ed]" started-at="2024-04-26T15:03:36 IST" name="beforeClass" finished-at="2024-04-26T15:03:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyIDwithinvalidemail()[pri:0, instance:TestNGFacebook.ForgetPassword@229f66ed]" started-at="2024-04-26T15:04:48 IST" name="verifyIDwithinvalidemail" finished-at="2024-04-26T15:04:48 IST" duration-ms="267" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: (//input[@name='email'])[2]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [18a35ad0-fa12-4ae0-b799-905f17cae44d, findElement {value=(//input[@name='email'])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:27105, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11416, moz:profile: C:\Users\Manoj\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:27105/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 18a35ad0-fa12-4ae0-b799-905f17cae44d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: (//input[@name='email'])[2]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [18a35ad0-fa12-4ae0-b799-905f17cae44d, findElement {value=(//input[@name='email'])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.2, moz:accessibilityChecks: false, moz:buildID: 20240419144423, moz:debuggerAddress: 127.0.0.1:27105, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11416, moz:profile: C:\Users\Manoj\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:27105/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 18a35ad0-fa12-4ae0-b799-905f17cae44d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+at pom.ForgotPassword.sendEmailOrPhone(ForgotPassword.java:49)
+at TestNGFacebook.ForgetPassword.verifyIDwithinvalidemail(ForgetPassword.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIDwithinvalidemail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@229f66ed]" started-at="2024-04-26T15:04:48 IST" name="afterMethod" finished-at="2024-04-26T15:04:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@229f66ed]" started-at="2024-04-26T15:04:48 IST" name="beforeMethod" finished-at="2024-04-26T15:04:58 IST" duration-ms="9949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyIDwithvalidemail()[pri:0, instance:TestNGFacebook.ForgetPassword@229f66ed]" started-at="2024-04-26T15:04:58 IST" name="verifyIDwithvalidemail" finished-at="2024-04-26T15:05:01 IST" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIDwithvalidemail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@229f66ed]" started-at="2024-04-26T15:05:01 IST" name="afterMethod" finished-at="2024-04-26T15:05:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNGFacebook.ForgetPassword@229f66ed]" started-at="2024-04-26T15:05:01 IST" name="afterClass" finished-at="2024-04-26T15:05:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="closeBriowser()[pri:0, instance:TestNGFacebook.ForgetPassword@229f66ed]" started-at="2024-04-26T15:05:34 IST" name="closeBriowser" finished-at="2024-04-26T15:05:44 IST" duration-ms="10359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBriowser -->
+      </class> <!-- TestNGFacebook.ForgetPassword -->
+      <class name="Test_Facebook_Functionality.Testng">
+        <test-method signature="test1()[pri:0, instance:Test_Facebook_Functionality.Testng@7dcf94f8]" started-at="2024-04-26T15:03:36 IST" name="test1" finished-at="2024-04-26T15:03:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Test_Facebook_Functionality.Testng@7dcf94f8]" started-at="2024-04-26T15:03:36 IST" name="beforeClass" finished-at="2024-04-26T15:03:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Test_Facebook_Functionality.Testng@7dcf94f8]" started-at="2024-04-26T15:03:36 IST" name="afterMethod" finished-at="2024-04-26T15:03:36 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test_Facebook_Functionality.Testng@7dcf94f8]" started-at="2024-04-26T15:03:36 IST" name="beforeMethod" finished-at="2024-04-26T15:03:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Test_Facebook_Functionality.Testng@7dcf94f8]" started-at="2024-04-26T15:03:36 IST" name="afterClass" finished-at="2024-04-26T15:03:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Test_Facebook_Functionality.Testng -->
+      <class name="TestNGFacebook.SignPasge">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGFacebook.SignPasge@31190526]" started-at="2024-04-26T15:03:36 IST" name="beforeClass" finished-at="2024-04-26T15:04:13 IST" duration-ms="36859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGFacebook.SignPasge@31190526]" started-at="2024-04-26T15:04:13 IST" name="beforeMethod" finished-at="2024-04-26T15:05:15 IST" duration-ms="62796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifythatEnterInvalidCreditional()[pri:-1, instance:TestNGFacebook.SignPasge@31190526]" started-at="2024-04-26T15:05:15 IST" name="verifythatEnterInvalidCreditional" finished-at="2024-04-26T15:05:19 IST" duration-ms="3980" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=124.0.6367.78)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3e43a6534e51ec6cbf082b556297433, findElement {value=, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Manoj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62974/devtoo..., se:cdpVersion: 124.0.6367.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3e43a6534e51ec6cbf082b556297433]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=124.0.6367.78)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3e43a6534e51ec6cbf082b556297433, findElement {value=, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Manoj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62974/devtoo..., se:cdpVersion: 124.0.6367.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3e43a6534e51ec6cbf082b556297433
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at pom.module.SignUpPage.clicksignUpButton(SignUpPage.java:103)
+at TestNGFacebook.SignPasge.verifythatEnterInvalidCreditional(SignPasge.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifythatEnterInvalidCreditional -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGFacebook.SignPasge@31190526]" started-at="2024-04-26T15:05:19 IST" name="afterMethod" finished-at="2024-04-26T15:05:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGFacebook.SignPasge@31190526]" started-at="2024-04-26T15:05:19 IST" name="beforeMethod" finished-at="2024-04-26T15:05:32 IST" duration-ms="12915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifythatEntervalidCreditional()[pri:0, instance:TestNGFacebook.SignPasge@31190526]" started-at="2024-04-26T15:05:32 IST" name="verifythatEntervalidCreditional" finished-at="2024-04-26T15:05:34 IST" duration-ms="1322" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=124.0.6367.78)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3e43a6534e51ec6cbf082b556297433, findElement {value=, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Manoj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62974/devtoo..., se:cdpVersion: 124.0.6367.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3e43a6534e51ec6cbf082b556297433]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=124.0.6367.78)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3e43a6534e51ec6cbf082b556297433, findElement {value=, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Manoj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62974/devtoo..., se:cdpVersion: 124.0.6367.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3e43a6534e51ec6cbf082b556297433
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at pom.module.SignUpPage.clicksignUpButton(SignUpPage.java:103)
+at TestNGFacebook.SignPasge.verifythatEntervalidCreditional(SignPasge.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifythatEntervalidCreditional -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGFacebook.SignPasge@31190526]" started-at="2024-04-26T15:05:34 IST" name="afterMethod" finished-at="2024-04-26T15:05:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNGFacebook.SignPasge@31190526]" started-at="2024-04-26T15:05:34 IST" name="afterClass" finished-at="2024-04-26T15:05:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNGFacebook.SignPasge -->
+    </test> <!--  FirefoxTest -->
+    <test started-at="2024-04-26T15:05:44 IST" name=" EdgeTest" finished-at="2024-04-26T15:06:02 IST" duration-ms="17898">
+      <class name="Test_Facebook_Functionality.Testng">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test_Facebook_Functionality.Testng@6743e411]" started-at="2024-04-26T15:06:02 IST" name="beforeMethod" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Test_Facebook_Functionality.Testng@6743e411]" started-at="2024-04-26T15:06:02 IST" name="beforeClass" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test1()[pri:0, instance:Test_Facebook_Functionality.Testng@6743e411]" started-at="2024-04-26T15:06:02 IST" name="test1" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-VIVKSABQ', ip: '192.168.223.98']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-VIVKSABQ', ip: '192.168.223.98'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:61)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:57)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:45)
+at TestNGFacebook.ForgetPassword.launchtheBrowser(ForgetPassword.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:246)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Test_Facebook_Functionality.Testng@6743e411]" started-at="2024-04-26T15:06:02 IST" name="afterMethod" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Test_Facebook_Functionality.Testng@6743e411]" started-at="2024-04-26T15:06:02 IST" name="afterClass" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Test_Facebook_Functionality.Testng -->
+      <class name="TestNGFacebook.ForgetPassword">
+        <test-method is-config="true" signature="launchtheBrowser(java.lang.String)[pri:0, instance:TestNGFacebook.ForgetPassword@3eb25e1a]" started-at="2024-04-26T15:05:44 IST" name="launchtheBrowser" finished-at="2024-04-26T15:06:02 IST" duration-ms="17726" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-VIVKSABQ', ip: '192.168.223.98']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-VIVKSABQ', ip: '192.168.223.98'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:61)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:57)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:45)
+at TestNGFacebook.ForgetPassword.launchtheBrowser(ForgetPassword.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:246)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchtheBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@3eb25e1a]" started-at="2024-04-26T15:06:02 IST" name="beforeMethod" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNGFacebook.ForgetPassword@3eb25e1a]" started-at="2024-04-26T15:06:02 IST" name="beforeClass" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyIDwithinvalidemail()[pri:0, instance:TestNGFacebook.ForgetPassword@3eb25e1a]" started-at="2024-04-26T15:06:02 IST" name="verifyIDwithinvalidemail" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-VIVKSABQ', ip: '192.168.223.98']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-VIVKSABQ', ip: '192.168.223.98'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:61)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:57)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:45)
+at TestNGFacebook.ForgetPassword.launchtheBrowser(ForgetPassword.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:246)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIDwithinvalidemail -->
+        <test-method signature="verifyIDwithvalidemail()[pri:0, instance:TestNGFacebook.ForgetPassword@3eb25e1a]" started-at="2024-04-26T15:06:02 IST" name="verifyIDwithvalidemail" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-VIVKSABQ', ip: '192.168.223.98']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-VIVKSABQ', ip: '192.168.223.98'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:61)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:57)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:45)
+at TestNGFacebook.ForgetPassword.launchtheBrowser(ForgetPassword.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.beforeRun(TestRunner.java:650)
+at org.testng.TestRunner.run(TestRunner.java:612)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.WebDriverException: Driver server process died prematurely.
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:246)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIDwithvalidemail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@3eb25e1a]" started-at="2024-04-26T15:06:02 IST" name="afterMethod" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeBriowser()[pri:0, instance:TestNGFacebook.ForgetPassword@3eb25e1a]" started-at="2024-04-26T15:06:02 IST" name="closeBriowser" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBriowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@3eb25e1a]" started-at="2024-04-26T15:06:02 IST" name="beforeMethod" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNGFacebook.ForgetPassword@3eb25e1a]" started-at="2024-04-26T15:06:02 IST" name="afterClass" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGFacebook.ForgetPassword@3eb25e1a]" started-at="2024-04-26T15:06:02 IST" name="afterMethod" finished-at="2024-04-26T15:06:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNGFacebook.ForgetPassword -->
+    </test> <!--  EdgeTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

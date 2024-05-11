@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sanity]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNGFacebook.SignPasge">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifythatEnterInvalidCreditional"/>
+          <include name="afterClass"/>
+          <include name="verifythatEntervalidCreditional"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestNGFacebook.SignPasge -->
+      <class name="TestNGFacebook.ForgetPassword">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="verifyIDwithinvalidemail"/>
+          <include name="verifyIDwithvalidemail"/>
+        </methods>
+      </class> <!-- TestNGFacebook.ForgetPassword -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [sanity] -->
